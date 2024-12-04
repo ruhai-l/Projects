@@ -1,1 +1,1 @@
-print("Welcome to the Route App")
+print("Welcome to the Route App. This is my smart plug-in app for Google Chrome!")
