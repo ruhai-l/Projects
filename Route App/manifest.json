@@ -6,13 +6,19 @@
     "author": "Ross",
     
     "icons": {
-      "48": "icons/icon16alt.png"
+      "16": "icons/icon16.png",
+      "32": "icons/icon16.png",
+      "48": "icons/icon16.png",
+      "128": "icons/icon16.png"
     },
   
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "48": "icons/icon16alt.png"
+        "16": "icons/icon16.png",
+        "32": "icons/icon16.png",
+        "48": "icons/icon16.png",
+        "128": "icons/icon16.png"
       },
       "default_title": "Click to open popup"
     },
