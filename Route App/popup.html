@@ -1,0 +1,36 @@
+// popup.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Route</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Route Alerts</h1>
+    <button id="actionButton">Click Me</button>
+    <script src="popup.js"></script>
+</body>
+</html>
+
+// popup.js
+document.getElementById('actionButton').addEventListener('click', () => {
+    console.log('Button clicked!');
+});
+
+// background.js
+chrome.runtime.onInstalled.addListener(() => {
+    console.log('Extension installed');
+});
+
+// content.js
+console.log('Content script loaded');
+
+// styles.css
+body {
+    font-family: Arial, sans-serif;
+}
